@@ -1,0 +1,40 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 6px 8px 10px gray;
+  padding: 10px;
+}
+
+.product-image-wrapper {
+  padding: 10px 20px;
+  background-color: #d3d3d340;
+}
+
+.product-image {
+  position: relative;
+  width: 200px;
+}
+
+.product-image img {
+  aspect-ratio: inherit;
+  width: inherit;
+}
+
+.product-name {
+  position: absolute;
+  left: 0;
+  color: #3e568e;
+  background-color: #c4d6dfbd;
+}
+
+.product-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.price {
+  font-weight: bold;
+}
